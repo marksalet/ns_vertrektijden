@@ -1,8 +1,4 @@
 # Import the modules that will be used in this python file.
-from flask import Flask, render_template, Markup
-import requests
-import xmltodict
-
 app = Flask(__name__)
 
 # This sets the authentication details for the NS API to use.
