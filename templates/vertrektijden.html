@@ -1,0 +1,13 @@
+<!doctype html>
+<title>NS - Vertrektijden {{ thisstation }}</title>
+<link rel=stylesheet type=text/css href="../../static/style.css">
+<div class=page>
+    <div class=content>
+        <div class=title>
+            <h1>NS - Vertrektijden {{ stationname }}</h1>
+        </div>
+        <span class="back"><a href="/">&#x21a9; Back</a></span>
+        {{ vertrektijden }}
+    </div>
+    {% block body %}{% endblock %}
+</div>
