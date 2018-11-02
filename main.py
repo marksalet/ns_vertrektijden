@@ -2,7 +2,7 @@
 app = Flask(__name__)
 
 # This sets the authentication details for the NS API to use.
-auth_details = ('marksalet@gmail.com', 'O3-zrii9Xa27xh73xQ1WUD8cSw2p7C0_fM-4Y39USVwvsd3KoDdumQ')
+auth_details = ('<e-mail>', '<password>')
 
 # Defines what should happen if you land on the root.
 # Here we will show a list with all the available stations.
